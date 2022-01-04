@@ -5,7 +5,7 @@ import React from 'react'
 import Layout from '../../components/layout'
 
 
-export default function firstPost() {
+const FirstPost:React.FC = () => {
     return (
         <Layout>
             <Head>
@@ -29,3 +29,5 @@ export default function firstPost() {
         </Layout>
     )
 }
+
+export default FirstPost
